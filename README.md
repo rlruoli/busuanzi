@@ -26,4 +26,8 @@
 
 第一次运行会创建一个 `config.yaml` 配置文件，修改之后重新运行即可
 
+在博客中按F12，找到busuanzi的js文件：`busuanzi.pure.mini.js` 把这玩意下载下来
+
 修改 `busuanzi.pure.mini.js` 文件，将里面 `"//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback"` 的域名和路径指向自己部署的服务地址
+
+然后自己托管修改后的JS文件，并且在博客中配置busuanzi的CDN指向自己托管的这个js文件
