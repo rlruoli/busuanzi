@@ -1,0 +1,6 @@
+listening: '0.0.0.0:8080' #监听地址
+redis:
+  addr: 'localhost:6379' #Redis数据库地址
+  password: '' #密码
+  db: 0 #默认使用0数据库
+  prefix: 'busuanzi' #命名空间前缀
